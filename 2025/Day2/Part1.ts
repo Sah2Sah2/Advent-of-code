@@ -1,7 +1,7 @@
 import { readFileSync } from "fs";
 import { join } from "path";
 
-const inputPath = join(__dirname, "DayOneInput.txt");
+const inputPath = join(__dirname, "Input.txt");
 const content: string = readFileSync(inputPath, "utf-8");
 const lines: string[] = content.split(/\r?\n/);
 
